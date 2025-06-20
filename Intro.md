@@ -31,9 +31,7 @@ En esta evaluación, tendremos el desafío de **diseñar una base de datos compl
 En las siguientes secciones, profundizaremos en cada uno de los contenidos de la prueba para que estes preparado.
 
 # Amplia tu conocimiento 
-Esto no tiene nada que ver con la prueba pero si deseas aprender mas sobre las bases de datos o como funciona una aplicacion te invito a que converses con chat gpt y le hagas preguntas como las que estan en el archivo [preguntas](preguntas.md), estas preguntas te daran una vision general de como funcionan las aplicaciones. 
-
-[gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGY2OHJlNW9yYzR3bXFlanVjd2U0ZTd0emVwenExazkxNDdkd2pqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/erKJd6NvCxr7G/giphy.gif)
+Esto no tiene nada que ver con la prueba pero si deseas aprender mas sobre las bases de datos o como funciona una aplicacion te invito a que converses con chat gpt y le hagas preguntas como las que estan en el archivo [preguntas](preguntas.md), estas preguntas te daran una vision general de como funcionan las aplicaciones.
 
 
 
