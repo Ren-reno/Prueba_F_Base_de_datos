@@ -12,7 +12,7 @@ a continuacion habalre de los que es un Modelo conceptual comenzare hablando de 
 
 ## Que es el modelo conceptual
 Un modelo conceptual es algo parecido a esto 
-![alt text](Imagenes\image-1.png)
+![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/image-1.png?raw=true)
 
 Como ves es un diagrama que representa los datos principales de un negocio. **Su objetivo es mostrar qué información se necesita guardar y cómo se relaciona esa información entre sí**, sin preocuparse por los detalles técnicos de cómo se almacenará en una computadora. para hacer este diagrama usamos simbolos estandarizados como los de la Notación Chen que hablaremos a continuacion. 
 
@@ -50,10 +50,10 @@ Las entidades representan las "cosas" importantes del mundo real sobre las que q
 
 Son representados por un ovalos y van unidos a las entidades que describen:
 
-![alt text](Imagenes\ovalo.png)
+![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/ovalo.png?raw=true)
 
 Los atributos son las características o propiedades que describen a una entidad. Son la información específica que queremos almacenar sobre cada "cosa".
-![alt text](Imagenes\medico-atributos.png)
+![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/medico-atributos.png?raw=true)
 
 En la foto de ejemplo de arriba se muestra una entidad Medico y los atributos que la describen, cabe recalcar que los atributos no siempre estan en el enunciado del ejericio cuando esto pasa nosotros debemos colocar los atributos que consideramos importantes para el funcionamiento de la base de datos por ejemplo en la creacion de una base de datos de un hospital atributos importantes serian los que aparecen en la imagen de arriba tambien podriamos agregarle un atributo edad. Atributos que no son importantes para el problema no los debemos agregar como por dar un ejemplo colocar un atributo partido politico no tendria nada que ver en una base de datos del hospital o Hobbie favorito. a lo que voy es que se deben colocar atributos que sean coherentes con el problema que estamos solucionando.
 
@@ -61,6 +61,6 @@ En la foto de ejemplo de arriba se muestra una entidad Medico y los atributos qu
 
 Tambien es importante decir que todas las entidades tienen una atributo que es la clave primaria, este atributo tiene la tarea de identificar a la entidad y es unico para cada entidad, en el diagrama se representa con un ovalo y una linea horizontal como esta
 
-![alt text](Imagenes\primarykey.png)
+![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/primarykey.png?raw=true)
 
 un ejemplo comun de clave primaria (tambien le dicen primary key en ingles) es el rut ya que es unico para cada persona, otro ejemplo de primary key seria para una entidad producto el Id_Producto (Este seria un identificador unico para cada producto )
