@@ -20,7 +20,7 @@ Pero, ¿qué hace exactamente este "corazón digital"? Una base de datos se dedi
 
 Saber sobre Bases de Datos es una **habilidad básica en el mundo TI**. Sin embargo, si la dominas bien, ¡puede **ampliar enormemente tus oportunidades laborales** 💸💰! (Aunque no hay que olvidar que **los contactos** son un tesoro igual de valioso 😉).
 
-Puedes especializarte en áreas de TI que no interactúan directamente con bases de datos en tu día a día (como el diseño UI/UX más puro). Aún así, si no comprendes cómo se almacena, organiza y recupera la información en una base de datos, **estarás en una desventaja significativa** frente a otros profesionales. Esto se debe a que la información es el motor de todo sistema, y tu capacidad para construir aplicaciones eficientes, analizar datos o asegurar sistemas estará limitada sin esa base.
+Puedes especializarte en áreas de TI que no interactúan directamente con bases de datos en tu día a día. Aún así, si no comprendes cómo se almacena, organiza y recupera la información en una base de datos, **estarás en una desventaja significativa** frente a otros profesionales. Esto se debe a que la información es el motor de todo sistema, y tu capacidad para construir aplicaciones eficientes, analizar datos o asegurar sistemas estará limitada sin esa base.
 
 ---
 
