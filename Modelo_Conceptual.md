@@ -27,7 +27,7 @@ Cada símbolo tiene un significado específico, y al combinarlos, podemos comuni
 ### Entidad 
 
 Las entidades en el diagrama en la notacion Chen son representadas por un Rectangulo
-![alt text](Imagenes\entidad.png)
+![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/entidad.png?raw=true)
 
 Las entidades representan las "cosas" importantes del mundo real sobre las que queremos guardar información. Piensa en ellas como sustantivos: personas, objetos, lugares, eventos o conceptos que son relevantes para el enunciado de la prueba en nuetro caso. Por ejemplo: 
 
