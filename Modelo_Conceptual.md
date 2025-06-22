@@ -69,10 +69,10 @@ un ejemplo comun de clave primaria (tambien le dicen primary key en ingles) es e
 
 A veces los atributos de las entidades pueden tener diferentes valores supongamos que en el ejercicio del hospital tambien necesitamos  saber el numero del telefono del medico y este tiene diferentes numeros como podria ser un numero de celular personal, uno de telefono y un numero para la consulta, en este caso el atributo numero tendria multiples valores, a esto se le conoce como **Atributo multievaluado** y es representado por un doble ovalo.
 
- ![alt text](Imagenes\multiev.png)
+ ![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/multiev.png?raw=true)
  teniendo esto en cuenta la entidad medico con sus atributos se veria asi:
 
-
+ ![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/medico_multiev.png?raw=true)
 
 En resumen los atributos son los valores que decriben a cada entidad y una entidad siempre lleva 1 atributo que es la clave primaria que sirve como identificador y se representa con un ovalo con una linea horizontal dentro y hay veces en que 1 atributo pueden tomar multiples a esto se le llama atributo multievaluado y se representa como un doble ovalo. 
 
@@ -83,11 +83,11 @@ En resumen los atributos son los valores que decriben a cada entidad y una entid
 
  Son representadas por un Rombo asi:
 
- ![alt text](Imagenes\rombo.png)
+ ![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/rombo.png?raw=true)
 
  Un ejemplo de relacion seria esta 
 
- ![alt text](Imagenes\relacion-ejm.png)
+ ![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/relacion-ejm.png?raw=true)
 
  otros ejemplos de relaciones podrian ser:
 
@@ -104,7 +104,7 @@ En resumen los atributos son los valores que decriben a cada entidad y una entid
 
 Es importante decir que hay veces (no siempre) que el enunciado de la prueba requiere que  las relaciones entre dos entidades lleven atributos si bien no lo va a  decir explicitamente en el enunciado nosotros debemos inferir cuando una relacion tiene que llevar atributos, esto tiene el nombre de **Entidad asociativa** y esta representado por un rectangulo que lleva dentro un rombo asi:
 
-![alt text](Imagenes\entidad_asociativa.png)
+![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/entidad_asociativa.png?raw=true)
 
 
 
@@ -128,7 +128,7 @@ En este escenario, `Inscribe` se convierte en una entidad asociativa. Se represe
 -
 espero que con ese ejemplo de gepeto hayas entendido, visto de forma grafica la entidad asociativa entre estudiante y curso se veria asi: 
 
- ![alt text](Imagenes/ejemplo_entidad_asoci.png)
+ ![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/ejemplo_entidad_asoci.png?raw=true)
 
 quiero hacer un parentesis y aprovechar el ejemplo de la imagen de arriba para hablar de las **claves primarias compuestas**, si recuerdas, cuando hablamos de los atributos  habia uno que estaba representado por un ovalo y una linea horizontal que se llamaba **clave primaria** todas las entidades llevan una clave primaria,la clave primaria es el valor unico que identifica a cada entidad (como un rut en las personas) en este caso para que no se repita los valores de `Inscribe` y como `Inscribe` esta relacionado con estudiante y curso usamos las claves primarias de `Id estudiante` y `Id curso` como indentificador unico para `Inscribe` (como se ve en la imagen de arriba) esto tiene un nombre y se llama **clave primaria compuesta** osea que cuando una entidad tiene mas de 2 claves primarias la llamamos clave primaria compuesta, Aunque la clave compuesta es la forma "natural", también es posible (y a veces preferible por simplicidad o rendimiento en el modelo físico) asignar una **clave primaria artificial** a la entidad asociativa ¿Cómo? Simplemente se le añade un nuevo atributo, como un `ID_Inscripcion`, que se autoincrementa o genera de forma única.
 Ejemplo: La entidad `Inscribe` podría tener un `ID_Inscripcion` propio, además de `ID_Estudiante` y `ID_Curso` (que serían claves foráneas a sus entidades originales). En este caso, `ID_Inscripcion` sería la clave primaria.
@@ -165,7 +165,7 @@ Símbolos en Chen: Se representan con números o letras (1, N, M) junto a las l�
 Una instancia de la Entidad A se relaciona con exactamente una instancia de la Entidad B, y viceversa.
 **Ejemplo**: Un `Ciudadano` tiene un solo `Carnet`, y un `Carnet` pertenece a un solo `Ciudadano`. visto graficamente seria asi:
 
- ![alt text](Imagenes\1a1.png)  
+ ![alt text](https://github.com/Ren-reno/Prueba_F_Base_de_datos/blob/main/Imagenes/1a1.png?raw=true)  
  nota: no le puse los atributos en las entidades porque me dio flojera, pero deberia llevar, igual lo que quiero que se fijen en el ejemplo de arria es en la cardinalidad.
 
 
